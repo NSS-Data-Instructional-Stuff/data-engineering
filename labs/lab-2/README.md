@@ -11,11 +11,11 @@ You will need to use python functions to open the file, read the file line by li
 jobs:build:
 --docker-image=cimg/base:2023.03
 --steps:checkout:
---run= echo "this is the build job"
+--run=echo "this is the build job"
 test:
 --docker-image=cimg/base:2023.03 
 --steps:checkout:
---run: echo "this is the test job"
+--run=echo "this is the test job"
 
 Is Equivalent to: 
 {
