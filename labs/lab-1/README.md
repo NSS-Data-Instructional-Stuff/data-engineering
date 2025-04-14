@@ -31,13 +31,13 @@ Read in the file people_broken.csv
 - change any 'null' text values to null
 
 ### Part 7
-Read in the .parquet file and print its contents to the commandline. Take a screen shot of the results
+Read in the mtcars.parquet file and print its contents to the commandline. Take a screen shot of the results
 
 ### Part 8
-Read in the .json file and print its contents to the commandline, Take a screen shot of the results. 
+Read in the quiz.json file and print its contents to the commandline, Take a screen shot of the results. 
 
 ### Part 9
-Read in the .xml file and print its contents to the commandline, Take a screen shot of the results. 
+Read in the menu.xml file and print its contents to the commandline, Take a screen shot of the results. 
 
 #### Submission
 Take all of the files that you created above and create a zipped folder called: lab-1_<yourLastName>.zip
