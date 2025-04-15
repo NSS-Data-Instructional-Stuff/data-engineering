@@ -1,21 +1,21 @@
-## Lab 4
+## Lab 1.4
 
 ### Introduction
-The purpose of this lab is to learn how to access data from an API using python using pagination. 
+The purpose of this lab is to learn how to access data from an API using pagination in Python. 
 
-#### Part 1
-Using the same API from lab 3,  go ahead and get a token, and authenticate to the API, verifying this by hitting / people. Do this in postman first. 
+### Part 1
+Using the same API from Lab 1.3, get a token and authenticate to the API. Verify this by hitting `/people`. Do this in Postman first. 
 
 ### Part 2
-Add Query string params offset and limit to the call to get a subset of the results back.  Note here that the api is set to a max number of results of 50. Do this in postman first. 
+Add query string params offset and limit to the call in order to get a subset of the results back.  Note here that the API is set to a max number of **50** results. Do this in Postman first. 
 
 ### Part 3
-Now that you have proven that the api is accessible. (This is a step I always do when writing code, so I know if it is the api that is not working vs my code not working.)
+You have now proven that the API is accessible. Checking your code first in Postman helps you determine if it is the api that is not working versus your code.
 
-Now repeat Part 1 and 2 using Python. 
+Now repeat Parts 1 and 2 using Python. 
 
 #### Part 4
-Now that you can read data from the API in python, you will Save the data to a .json file 10 records at a time. Not holding any more than 10 records in memory at once. 
+Once can read data from the API using Python, save the data to a `.json` file 10 records at a time. Do not hold any more than 10 records in memory at once. 
 
 ### Part 5 
-Instead of writing this to a json file, reformat this and write to a .csv file. 
+Instead of writing this to a json file, reformat to write to a `.csv` file. 
