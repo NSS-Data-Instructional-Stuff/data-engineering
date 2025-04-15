@@ -12,4 +12,11 @@ Once your containers are running. Navigate in a web browser to localhost:8080. T
 In PGadmin add a server,  for host name you will use the container name postgresdb.  The database, username, password are all specified in the docker compose file. You can now manipulate your data in pgadmin. 
 
 ### Part 3 
-Create a Users table with the columns: UserId, Username, LastLoginDate, CreatedDate, CreatedUserId, ModDate, ModUserId.   UserId should be the Primary key, Int, autoincrement (0,1).  
+Create a Users table with the columns: user_id, username, last_login_date  user_id should be the Primary key, Int, autoincrement 
+
+example code: 
+    CREATE TABLE users (
+        user_id SERIAL PRIMARY KEY,
+        username varchar(40) NOT NULL,
+        last_login_date date
+    )
