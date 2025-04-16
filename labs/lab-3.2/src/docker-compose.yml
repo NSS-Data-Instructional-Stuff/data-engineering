@@ -8,7 +8,7 @@ services:
     ports:
       - 27017:27017
     environment:
-      MONGO_INITDB_ROOT_USERNAME: NileshBlog.Tech
-      MONGO_INITDB_ROOT_PASSWORD: SpeakLouder
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: SpeakLouder123
     volumes:
       - ./db_data/:/data/db/
