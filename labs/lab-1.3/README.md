@@ -21,7 +21,7 @@ If done correctly you should see a response that is similar to:
 ```
 
 ### Part 2
-Next, set up Postman for authentication. Go to your collection and choose the authorization tab. Set **Auth Type** as **Bearer Token**, then paste the token that you recieved above in for token. 
+Next, set up Postman for authentication. Go to your collection and choose the authorization tab. Set **Auth Type** as **Bearer Token**, then paste the token that you received above in for token. 
 
 Then you will need to create a GET to `/people`.  
 If you have done this correctly you will see results similar to: 

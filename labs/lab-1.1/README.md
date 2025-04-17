@@ -1,7 +1,7 @@
 ## Lab 1.1
 
 ### Introduction
-The purpose of this lab is to practice fundamental python skills. You will be using pandas built-in functions to read data and send it to different outputs ( csv files, console).
+The purpose of this lab is to practice fundamental python skills. You will be using pandas built-in functions to read data and send it to different outputs (csv files, console).
 
 ### Part 1
 Read the `people.csv` file, and save it as `people_<yourLastName>.csv`. Verify that the data is formatted the same and no data was changed.  
@@ -9,8 +9,8 @@ Read the `people.csv` file, and save it as `people_<yourLastName>.csv`. Verify t
 ### Part 2
 Read the `people_no_header.csv` file, and save it as `people_header_added_<yourLastName>.csv`. Verify that the data is formatted the same and only the header was changed.
 
-This is the header row that will need to be added
-name,age,sex,height,weight,bmi,sibling_count,birth_order,years_played_sports
+This is the header row that will need to be added:
+**name,age,sex,height,weight,bmi,sibling_count,birth_order,years_played_sports**
 
 ### Part 3
 Read the `people_dirty_header.csv` file, and save it as `people_clean_header_<yourLastName>.csv`. 
@@ -18,11 +18,11 @@ Verify that the data is formatted  and only the header was changed.
 
 ### Part 4
 Read the `people_nulls.csv` file, and save it as `people_nulls_<yourLastName>.csv`. 
-Verify that the data is formatted  and nothing has changed. In this exercise, I just want you to verify that you read in the data as a null and not as the string 'null'.  
+Verify that the data is formatted and nothing has changed. In this exercise, you will verify that you read in the data as a null and not as the string 'null'.  
 
 ### Part 5
 Read the `people_none.csv` file, and save it as `people_none_<yourLastName>.csv`. 
-Take all of the values that are 'NONE' and change them to null. Make sure it is the null object and not the string 'null' 
+Take all of the values that are 'NONE' and change them to null. Make sure it is the null object and not the string 'null'. 
 
 ### Part 6
 Read in the `file people_broken.csv`
