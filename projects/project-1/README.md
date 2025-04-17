@@ -24,3 +24,6 @@ You will create a slide deck covering the following points:
 - Talk about any challenges you had to overcome.
 - Talk about anything that you would do differently
 - Address anything that you tried, but could not get to work, if anything. 
+
+### Notes
+You will want to reuse the data in the above database for future labs.  
