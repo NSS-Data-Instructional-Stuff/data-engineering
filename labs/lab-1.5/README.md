@@ -10,10 +10,10 @@ Create a new project, put the docker-compose file in the root of the project. Op
 ### Part 2
 Once your containers are running. Navigate in a web browser to `localhost:8080`. This will pull up the login for **PGAdmin**. You can find the local credentials in the Docker compose file.
 
-In PGAdmin add a server, for host name you will use the container name `postgresdb`.  The database, username, and password are all specified in the Docker compose file. You can now manipulate your data in PGAdmin. 
+In PGAdmin add a server. For host name you will use the container name `postgresdb`.  The database, username, and password are all specified in the Docker compose file. You can now manipulate your data in PGAdmin. 
 
 ### Part 3 
-Create a Users table with the columns: **user_id**, **username**, **last_login_date**.  **user_id** should be the primary key, with an integer data type, and set to autoincrement. 
+Create a **Users** table with the columns: **user_id**, **username**, **last_login_date**.  **user_id** should be the primary key, with an integer data type, and set to autoincrement. 
 
 example code: 
 ```  
