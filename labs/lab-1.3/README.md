@@ -6,7 +6,8 @@ The purpose of this lab is to learn how to authenticate to a REST api. You will 
 ### Part 1 
 In this first step you need to get a token. You will configure your Postman client with a POST to `/api/auth` and the body as raw json.    
 
-```{
+```
+{
     "username": "admin",
     "password": "password123"
 }
@@ -14,7 +15,8 @@ In this first step you need to get a token. You will configure your Postman clie
 
 If done correctly you should see a response that is similar to: 
 
-```{
+```
+{
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzQ0NjYwOTQzfQ.MtvSz9cUeXMX-HmHgE92XnUjWXGYKgjIsm0Q2jYzFbM",
     "expires_at": "2025-04-14T20:02:23.789588Z"
 }
