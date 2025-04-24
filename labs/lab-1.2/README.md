@@ -12,7 +12,8 @@ You will need to use Python functions to
 
 #### Notes about the data: 
 
-```jobs:build:
+```
+jobs:build:
 --docker-image=cimg/base:2023.03
 --steps:checkout:
 --run=echo "this is the build job"
@@ -22,7 +23,8 @@ test:
 --run=echo "this is the test job" 
 ```
 Is Equivalent to: 
-```{
+```
+{
     jobs {
         build {
             docker-image: cimg/base:2023.02
