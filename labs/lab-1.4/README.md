@@ -18,4 +18,4 @@ Now repeat Parts 1 and 2 using Python.
 Once can read data from the API using Python, save the data to a `.json` file 10 records at a time. Do not hold any more than 10 records in memory at once. 
 
 ### Part 5 
-Instead of writing this to a json file, reformat to write to a `.csv` file. 
+Instead of writing this to a json file, reformat to write to a `.csv` file still holding only 10 records at a time in memory. 
