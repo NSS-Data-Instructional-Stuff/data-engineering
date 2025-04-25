@@ -3,7 +3,7 @@
 ### Introduction
 The purpose of this lab is to learn how to access data from a database locally. You will be using Docker to stand up a local database and a running instance of PGAdmin. 
 
-#### Part 1
+### Part 1
 Verify that you have Docker desktop installed. 
 Create a new project, put the docker-compose file in the root of the project. Open a terminal in the root of the project and run the command:  `docker compose up`
 
