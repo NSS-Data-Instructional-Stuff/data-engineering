@@ -14,7 +14,7 @@ You have now proven that the API is accessible. Checking your code first in Post
 
 Now repeat Parts 1 and 2 using Python. 
 
-#### Part 4
+### Part 4
 Once can read data from the API using Python, save the data to a `.json` file 10 records at a time. Do not hold any more than 10 records in memory at once. 
 
 ### Part 5 
