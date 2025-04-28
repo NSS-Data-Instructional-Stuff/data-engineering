@@ -22,6 +22,8 @@ If done correctly you should see a response that is similar to:
 }
 ```
 
+You will need to paste the token that you get into an online decoder. https://jwt.io/ is a good resource. This will let you see what is being passed in the token. 
+
 ### Part 2
 Next, set up Postman for authentication. Go to your collection and choose the authorization tab. Set **Auth Type** as **Bearer Token**, then paste the token that you received above in for token. 
 

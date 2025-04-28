@@ -3,6 +3,11 @@
 ### Introduction
 The purpose of this lab is to practice fundamental python skills. You will be using pandas built-in functions to read data and send it to different outputs (csv files, console).
 
+#### Notes: 
+Documentation for reading and writing files in Pandas can be found here: 
+https://pandas.pydata.org/docs/user_guide/io.html
+
+
 ### Part 1
 Read the `people.csv` file, and save it as `people_<yourLastName>.csv`. Verify that the data is formatted the same and no data was changed.  
 
@@ -42,5 +47,4 @@ Read in the `menu.xml` file and print its contents to the commandline. Take a sc
 #### Submission
 Take all of the files that you created above and create a zipped folder called: `lab-1.1_<yourLastName>.zip`
 
-#### Notes: 
-Be precise when naming of your files. Code has been written to verify that the files are correct. 
+
