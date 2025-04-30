@@ -1,10 +1,10 @@
 ## Lab 1.1
 
 ### Introduction
-The purpose of this lab is to practice fundamental python skills. You will be using pandas built-in functions to read data and send it to different outputs (csv files, console).
+The purpose of this lab is to practice fundamental Python skills. You will be using pandas built-in functions to read data and send it to different outputs (csv files, console).
 
 #### Notes: 
-Documentation for reading and writing files in Pandas can be found here: 
+Documentation for reading and writing files in pandas can be found here: 
 https://pandas.pydata.org/docs/user_guide/io.html
 
 
