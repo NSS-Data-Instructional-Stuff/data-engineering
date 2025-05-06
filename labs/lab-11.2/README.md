@@ -20,5 +20,5 @@ Configure a dev tunnel. https://learn.microsoft.com/en-us/azure/developer/dev-tu
 Do not start the devtunnel server only start the host. Make sure it is started to listen on the same port that your api is on. 
 
 ### Part 4
-Create a call back in stripe and simulate the webhook.  You can find out how to do this in the stripe documentation. Print the call back to the terminal to verifyh that you are recieving it locally. 
+Create a call back in stripe and simulate the webhook.  You can find out how to do this in the stripe documentation. Print the call back to the terminal to verify that you are recieving it locally. 
 
