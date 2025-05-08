@@ -31,18 +31,18 @@ Take all of the values that are 'NONE' and change them to null. Make sure it is 
 
 ### Part 6
 Read in the `file people_broken.csv`
-- Add the correct header
-- Change any instance of NONE to null
-- change any 'null' text values to null
+- Add the correct header.
+- Change any instance of NONE to null.
+- Change any 'null' text values to null.
 
 ### Part 7
-Read in the `mtcars.parquet` file and print its contents to the commandline. Take a screen shot of the results.
+Read in the `mtcars.parquet` file and print its contents to the command line. Take a screenshot of the results.
 
 ### Part 8
-Read in the `quiz.json` file and print its contents to the commandline. Take a screen shot of the results. 
+Read in the `quiz.json` file and print its contents to the command line. Take a screenshot of the results. 
 
 ### Part 9
-Read in the `menu.xml` file and print its contents to the commandline. Take a screen shot of the results. 
+Read in the `menu.xml` file and print its contents to the command line. Take a screenshot of the results. 
 
 #### Submission
 Take all of the files that you created above and create a zipped folder called: `lab-1.1_<yourLastName>.zip`
