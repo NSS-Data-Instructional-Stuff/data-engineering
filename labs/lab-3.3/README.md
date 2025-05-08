@@ -4,7 +4,7 @@
 In this lab you will take the `women_bmi_age.csv` dataset and upload it to the sftp using Python. You will then get the dataset from the sftp, and store it in your postgres database. 
 
 ### Part 1
-Spin up the sftp and postgres instances using docker.
+Spin up the sftp and postgres instances using Docker.
 
 ### Part 2
 Connect to the sftp using Python and drop the `women_bmi_age.csv` file into the sftp. 
