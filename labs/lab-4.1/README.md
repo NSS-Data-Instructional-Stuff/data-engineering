@@ -9,7 +9,7 @@ This lab will put your SQL skills to the test.
 - Spend a little time exploring the tables and columns
 
 ### Create queries for each problem below
-1. Open the query editor in PgAdmin and write a query to see the first 10 rows of the details table.
+1. Open the query editor in pgAdmin and write a query to see the first 10 rows of the details table.
 2.  Write a query to see what different **assessment years** are covered in the data. Record your findings as a comment after your query. 
 3.  Do the same for the **last reappraisal years**. Save your query as `housing_sql_<yourLastName>.sql`. You will continue to add to this file as you complete this lab.
 4. Find each unique property owner, the number of properties they own, and the total appraised value of those properties for the 12 owners who are recorded as owning the greatest number of properties. Notice that only one private citizen shows as being in the top 12 property owners. What is his name, how many properties does he own and what is the total assessed value of those properties?
