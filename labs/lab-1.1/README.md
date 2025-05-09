@@ -31,7 +31,7 @@ Verify that the data is formatted and nothing has changed. In this exercise, you
 
 ### Part 5
 Read the `people_none.csv` file, and save it as `people_none_<yourLastName>.csv`. 
-Take all of the values that are 'NONE' and change them to NULL. 
+Take all of the values that are 'NONE' or NaN and change them to NULL. 
 
 ### Part 6
 Read in the `file people_broken.csv`
