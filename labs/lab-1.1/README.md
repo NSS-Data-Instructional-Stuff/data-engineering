@@ -25,17 +25,17 @@ Verify that the data is formatted  and only the header was changed.
 
 ### Part 4
 Read the `people_nulls.csv` file, and save it as `people_nulls_<yourLastName>.csv`. 
-Verify that the data is formatted and nothing has changed. In this exercise, you will verify that you read in the data as a null (or emply is also fine) and not as the string 'null'.  
+Verify that the data is formatted and nothing has changed. In this exercise, you will verify that you read in the data as a NaN.  
 
 ### Part 5
 Read the `people_none.csv` file, and save it as `people_none_<yourLastName>.csv`. 
-Take all of the values that are 'NONE' and change them to null. Make sure it is either empty, NaN or None and not the string 'null'. 
+Take all of the values that are 'NONE' and change them to null. Make sure it is either NaN or None and not the string 'null'. 
 
 ### Part 6
 Read in the `file people_broken.csv`
 - Add the correct header.
-- Change any instance of NONE to null.
-- Change any 'null' text values to null.
+- Change any instance of NONE to NaN or None 
+- Change any 'null' text values to NaN or None 
 
 ### Part 7
 Read in the `mtcars.parquet` file and print its contents to the command line. Take a screenshot of the results.
