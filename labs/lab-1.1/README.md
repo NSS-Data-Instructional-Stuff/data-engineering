@@ -7,6 +7,8 @@ The purpose of this lab is to practice fundamental Python skills. You will be us
 Documentation for reading and writing files in pandas can be found here: 
 https://pandas.pydata.org/docs/user_guide/io.html
 
+When writing a file in pandas, you can change how the na is represented like this: df.to_csv('file.csv', na_rep='NULL')
+
 While Python doesn't have an explicit "null" keyword like some other languages, the concept of null is represented by None. In the context of databases and data analysis, "null" generally refers to a missing or unknown value. Pandas uses NaN to represent null values in numeric columns and None or NaN in object columns. You will see "null" in database, .csv files, and other places.  
 
 
@@ -29,13 +31,13 @@ Verify that the data is formatted and nothing has changed. In this exercise, you
 
 ### Part 5
 Read the `people_none.csv` file, and save it as `people_none_<yourLastName>.csv`. 
-Take all of the values that are 'NONE' and change them to null. Make sure it is either NaN or None and not the string 'null'. 
+Take all of the values that are 'NONE' and change them to NULL. 
 
 ### Part 6
 Read in the `file people_broken.csv`
 - Add the correct header.
-- Change any instance of NONE to NaN or None 
-- Change any 'null' text values to NaN or None 
+- Change any instance of NONE to NaN, NULL, or None 
+- Change any 'null' text values to NaN, NULL or None 
 
 ### Part 7
 Read in the `mtcars.parquet` file and print its contents to the command line. Take a screenshot of the results.
