@@ -7,6 +7,8 @@ The purpose of this lab is to practice fundamental Python skills. You will be us
 Documentation for reading and writing files in pandas can be found here: 
 https://pandas.pydata.org/docs/user_guide/io.html
 
+While Python doesn't have an explicit "null" keyword like some other languages, the concept of null is represented by None. In the context of databases and data analysis, "null" generally refers to a missing or unknown value. Pandas uses NaN to represent null values in numeric columns and None or NaN in object columns. You will see "null" in database, .csv files, and other places.  
+
 
 ### Part 1
 Read the `people.csv` file, and save it as `people_<yourLastName>.csv`. Verify that the data is formatted the same and no data was changed.  
