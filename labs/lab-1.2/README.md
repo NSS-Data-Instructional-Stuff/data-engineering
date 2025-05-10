@@ -18,7 +18,7 @@ jobs:build:
 --steps:checkout:
 --run=echo "this is the build job"
 test:
---docker-image=cimg/base:2023.03 
+--docker-image=cimg/base
 --steps:checkout:
 --run=echo "this is the test job" 
 ```
@@ -27,7 +27,7 @@ Is Equivalent to:
 {
     jobs {
         build {
-            docker-image: cimg/base:2023.02
+            docker-image: cimg/base
             steps {
                 checkout {
                     run: echo 'this is the build job'
