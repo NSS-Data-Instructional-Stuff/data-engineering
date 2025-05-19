@@ -9,18 +9,22 @@ You will need to use Python functions to
 - read the file line by line 
 - for each line, parse the data    
 - convert the data to json
+- you will need to name your function ```parse_data``` it will take as input  ```input_data``` ands return a string of formatted data. 
 
 #### Notes about the data: 
 
 ```
-jobs:build:
---docker-image=cimg/base:2023.03
---steps:checkout:
---run=echo "this is the build job"
-test:
+jobs:
+-build:
 --docker-image=cimg/base
---steps:checkout:
---run=echo "this is the test job" 
+--steps:
+---checkout:
+----run=echo "this is the build job"
+-test:
+--docker-image=cimg/base
+--steps:
+---checkout:
+----run=echo "this is the test job"
 ```
 Is Equivalent to: 
 ```
