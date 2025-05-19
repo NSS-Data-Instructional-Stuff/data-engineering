@@ -36,8 +36,8 @@ Take all of the values that are 'NONE' or NaN and change them to NULL.
 ### Part 6
 Read in the `file people_broken.csv`
 - Add the correct header.
-- Change any instance of NONE to NaN, NULL, or None 
-- Change any 'null' text values to NaN, NULL or None 
+- Change any instance of NONE to NULL, 
+- Change any 'null' text values to NULL
 
 ### Part 7
 Read in the `mtcars.parquet` file and print its contents to the command line. Take a screenshot of the results.
