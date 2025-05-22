@@ -5,7 +5,7 @@
 - [United Kindom](https://www.data.gov.uk/)
 - [Canada](https://search.open.canada.ca/opendata/)
 
-These datasets should have `Covid-19`, `SARS-CoV-2`, of `Coronavirus` in the dataset name and must be national/federal level data.
+These datasets should have `Covid-19`, `SARS-CoV-2`, or `Coronavirus` in the dataset name and must be national/federal level data.
   
 
 Marvan would like the data to be stored in this format:    
