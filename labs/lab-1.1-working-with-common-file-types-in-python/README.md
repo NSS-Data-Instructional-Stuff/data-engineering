@@ -38,6 +38,7 @@ Read in the `file people_broken.csv`
 - Add the correct header.
 - Change any instance of NONE to NULL, 
 - Change any 'null' text values to NULL
+- Save the file as `people_broken_<yourLastName>.csv`
 
 ### Part 7
 Read in the `mtcars.parquet` file and print its contents to the command line. Take a screenshot of the results.
