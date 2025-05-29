@@ -28,7 +28,7 @@ jobs:
 ```
 Is Equivalent to: 
 ```
-{
+
     jobs {
         build {
             docker-image: cimg/base
@@ -47,5 +47,5 @@ Is Equivalent to:
             }
         }
     }
-} 
+
 ```

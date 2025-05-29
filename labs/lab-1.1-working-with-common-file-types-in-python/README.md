@@ -13,7 +13,7 @@ While Python doesn't have an explicit "null" keyword like some other languages, 
 
 
 ### Part 1
-Read the `people.csv` file, and save it as `people_<yourLastName>.csv`. Verify that the data is formatted the same and no data was changed.  
+Using Pandas read the `people.csv` file, and save it as `people_<yourLastName>.csv`. Verify that the data is formatted the same and no data was changed.  
 
 ### Part 2
 Read the `people_no_header.csv` file, and save it as `people_header_added_<yourLastName>.csv`. Verify that the data is formatted the same and only the header was changed.
@@ -27,7 +27,7 @@ Verify that the data is formatted  and only the header was changed.
 
 ### Part 4
 Read the `people_nulls.csv` file, and save it as `people_nulls_<yourLastName>.csv`. 
-Verify that the data is formatted and nothing has changed. In this exercise, you will verify that you read in the data as a NaN.  
+Verify that the data is formatted and nothing has changed. In this exercise, you will verify that you read in the data as a NaN. You will have to account for this changing the data type in the age column.   
 
 ### Part 5
 Read the `people_none.csv` file, and save it as `people_none_<yourLastName>.csv`. 
