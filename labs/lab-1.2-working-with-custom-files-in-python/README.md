@@ -37,8 +37,7 @@ Is Equivalent to:
                     run: echo 'this is the build job'
                 }
             }
-        }
-    },
+        },
     test {
         docker-image : cimg/base:2023.03
         steps {
