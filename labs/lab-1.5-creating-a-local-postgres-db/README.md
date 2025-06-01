@@ -23,3 +23,5 @@ example code:
         last_login_date date
     )
 ```
+
+For submission, select * from your table and take a screenshot of the result. 
