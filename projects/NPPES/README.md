@@ -29,7 +29,7 @@ Your goal is to create a csv file containing the following information:
 
 ### Part 2
 
-Create a stored procedure to process a chunk of rows from the NPPES data. Use this stored procedure in order to process the full NPPES data file (npidata_pfile_20050523-20250413.csv) and store the data in a database.
+Create a stored procedure to process rows from the NPPES data. Use this stored procedure in order to process the full NPPES data file (npidata_pfile_20050523-20250413.csv) and store the data in a database.
 
 ### Part 3
 
